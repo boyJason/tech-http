@@ -1,0 +1,379 @@
+24-08-03.16:53:04.906 [main            ] WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+24-08-03.16:53:10.506 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:53:10 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:53:10 GMT
+24-08-03.16:53:20.066 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:53:20 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:53:20 GMT
+24-08-03.16:53:20.067 [scheduling-1    ] ERROR TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "topics" is null
+	at cn.bugstack.xfg.dev.tech.job.ZSXQJob.exec(ZSXQJob.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-08-03.16:53:20.629 [OkHttp https://open.bigmodel.cn/...] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:53:21 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:53:21 GMT
+24-08-03.16:53:30.120 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:53:30 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:53:30 GMT
+24-08-03.16:53:40.128 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:53:40 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:53:40 GMT
+24-08-03.16:53:50.116 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:53:50 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:53:50 GMT
+24-08-03.16:54:00.120 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:54:00 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:54:00 GMT
+24-08-03.16:54:10.116 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:54:10 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:54:10 GMT
+24-08-03.16:54:20.132 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:54:20 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:54:20 GMT
+24-08-03.16:54:30.123 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:54:30 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:54:30 GMT
+24-08-03.16:54:40.125 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:54:40 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:54:40 GMT
+24-08-03.16:54:50.111 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:54:50 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:54:50 GMT
+24-08-03.16:55:00.129 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:55:00 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:55:00 GMT
+24-08-03.16:55:10.129 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:55:10 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:55:10 GMT
+24-08-03.16:55:20.140 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:55:20 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:55:20 GMT
+24-08-03.16:55:30.262 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:55:30 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:55:30 GMT
+24-08-03.16:55:30.264 [scheduling-1    ] ERROR TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "topics" is null
+	at cn.bugstack.xfg.dev.tech.job.ZSXQJob.exec(ZSXQJob.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-08-03.16:55:40.053 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:55:40 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:55:40 GMT
+24-08-03.16:55:40.054 [scheduling-1    ] ERROR TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "topics" is null
+	at cn.bugstack.xfg.dev.tech.job.ZSXQJob.exec(ZSXQJob.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-08-03.16:55:50.106 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:55:50 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:55:50 GMT
+24-08-03.16:56:00.190 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:56:00 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:56:00 GMT
+24-08-03.16:56:10.112 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:56:10 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:56:10 GMT
+24-08-03.16:56:20.118 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:56:20 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:56:20 GMT
+24-08-03.16:56:30.125 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:56:30 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:56:30 GMT
+24-08-03.16:56:40.104 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:56:40 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:56:40 GMT
+24-08-03.16:56:50.122 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:56:50 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:56:50 GMT
+24-08-03.16:57:00.133 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:57:00 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:57:00 GMT
+24-08-03.16:57:10.149 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:57:10 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:57:10 GMT
+24-08-03.16:57:20.108 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:57:20 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:57:20 GMT
+24-08-03.16:57:30.052 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:57:30 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:57:30 GMT
+24-08-03.16:57:30.054 [scheduling-1    ] ERROR TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "topics" is null
+	at cn.bugstack.xfg.dev.tech.job.ZSXQJob.exec(ZSXQJob.java:59)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-08-03.16:57:40.127 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:57:40 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:57:40 GMT
+24-08-03.16:57:50.128 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:57:50 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:57:50 GMT
+24-08-03.16:58:00.133 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:58:00 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:58:00 GMT
+24-08-03.16:58:10.111 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:58:10 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:58:10 GMT
+24-08-03.16:58:20.128 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:58:20 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:58:20 GMT
+24-08-03.16:58:58.195 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:58:58 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:58:58 GMT
+24-08-03.16:59:00.133 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:59:00 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:59:00 GMT
+24-08-03.16:59:10.053 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:59:10 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:59:10 GMT
+24-08-03.16:59:10.053 [scheduling-1    ] ERROR TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "topics" is null
+	at cn.bugstack.xfg.dev.tech.job.ZSXQJob.exec(ZSXQJob.java:59)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-08-03.16:59:20.120 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:59:20 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:59:20 GMT
+24-08-03.16:59:30.124 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:59:30 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:59:30 GMT
+24-08-03.16:59:40.146 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:59:40 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:59:40 GMT
+24-08-03.16:59:50.141 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 08:59:50 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 08:59:50 GMT
+24-08-03.17:00:00.123 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:00:00 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:00:00 GMT
+24-08-03.17:00:10.121 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:00:10 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:00:10 GMT
+24-08-03.17:00:20.125 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:00:20 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:00:20 GMT
+24-08-03.17:00:30.112 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:00:30 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:00:30 GMT
+24-08-03.17:00:40.119 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:00:40 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:00:40 GMT
+24-08-03.17:01:14.225 [main            ] WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+24-08-03.17:01:20.381 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:01:20 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:01:20 GMT
+24-08-03.17:01:20.609 [scheduling-1    ] ERROR TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "topics" is null
+	at cn.bugstack.xfg.dev.tech.job.ZSXQJob.exec(ZSXQJob.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-08-03.17:01:30.284 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:01:30 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:01:30 GMT
+24-08-03.17:01:40.134 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:01:40 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:01:40 GMT
+24-08-03.17:01:50.080 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:01:50 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:01:50 GMT
+24-08-03.17:01:50.082 [scheduling-1    ] ERROR TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "topics" is null
+	at cn.bugstack.xfg.dev.tech.job.ZSXQJob.exec(ZSXQJob.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-08-03.17:02:00.124 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:02:00 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:02:00 GMT
+24-08-03.17:02:10.051 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:02:10 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:02:10 GMT
+24-08-03.17:02:10.052 [scheduling-1    ] ERROR TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "topics" is null
+	at cn.bugstack.xfg.dev.tech.job.ZSXQJob.exec(ZSXQJob.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-08-03.17:02:20.325 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:02:20 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:02:20 GMT
+24-08-03.17:02:30.102 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:02:30 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:02:30 GMT
+24-08-03.17:02:40.110 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:02:40 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:02:40 GMT
+24-08-03.17:02:50.115 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:02:50 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:02:50 GMT
+24-08-03.17:03:00.105 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:03:00 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:03:00 GMT
+24-08-03.17:03:10.100 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:03:10 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:03:10 GMT
+24-08-03.17:03:20.089 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:03:20 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:03:20 GMT
+24-08-03.17:03:20.090 [scheduling-1    ] ERROR TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "topics" is null
+	at cn.bugstack.xfg.dev.tech.job.ZSXQJob.exec(ZSXQJob.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-08-03.17:03:30.107 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:03:30 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:03:30 GMT
+24-08-03.17:03:40.108 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:03:40 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:03:40 GMT
+24-08-03.17:03:48.953 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - An exception was thrown while closing send thread for session 0x1000a6a06460005.
+org.apache.zookeeper.ClientCnxn$EndOfStreamException: Unable to read additional data from server sessionid 0x1000a6a06460005, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+24-08-03.17:04:11.936 [main            ] WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+24-08-03.17:05:22.529 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Client session timed out, have not heard from server in 68707ms for session id 0x1000a6a06460006
+24-08-03.17:05:22.532 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a06460006 for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 68707ms for session id 0x1000a6a06460006
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+24-08-03.17:05:24.291 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Unable to reconnect to ZooKeeper service, session 0x1000a6a06460006 has expired
+24-08-03.17:05:24.291 [main-EventThread] WARN  ConnectionState        - Session expired event received
+24-08-03.17:05:24.292 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a06460006 for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x1000a6a06460006 has expired
+	at org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1406)
+	at org.apache.zookeeper.ClientCnxnSocket.readConnectResult(ClientCnxnSocket.java:154)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:84)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+24-08-03.17:05:24.485 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:05:24 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:05:24 GMT
+24-08-03.17:08:09.873 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Client session timed out, have not heard from server in 164824ms for session id 0x1000a6a06460007
+24-08-03.17:08:16.346 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a06460007 for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 164824ms for session id 0x1000a6a06460007
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+24-08-03.17:09:17.212 [Curator-ConnectionStateManager-0] WARN  ConnectionStateManager - Session timeout has elapsed while SUSPENDED. Injecting a session expiration. Elapsed ms: 46972. Adjusted session timeout ms: 40000
+24-08-03.17:09:57.280 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Unable to reconnect to ZooKeeper service, session 0x1000a6a06460007 has expired
+24-08-03.17:09:57.281 [main-EventThread] WARN  ConnectionState        - Session expired event received
+24-08-03.17:09:57.287 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a06460007 for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x1000a6a06460007 has expired
+	at org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1406)
+	at org.apache.zookeeper.ClientCnxnSocket.readConnectResult(ClientCnxnSocket.java:154)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:84)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+24-08-03.17:11:08.550 [main            ] WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+24-08-03.17:18:37.207 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Client session timed out, have not heard from server in 446419ms for session id 0x1000a6a06460009
+24-08-03.17:18:37.211 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a06460009 for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 446419ms for session id 0x1000a6a06460009
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+24-08-03.17:18:38.460 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Unable to reconnect to ZooKeeper service, session 0x1000a6a06460009 has expired
+24-08-03.17:18:38.460 [main-EventThread] WARN  ConnectionState        - Session expired event received
+24-08-03.17:18:38.460 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a06460009 for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x1000a6a06460009 has expired
+	at org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1406)
+	at org.apache.zookeeper.ClientCnxnSocket.readConnectResult(ClientCnxnSocket.java:154)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:84)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+24-08-03.17:18:40.575 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:18:40 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:18:40 GMT
+24-08-03.17:25:23.617 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Client session timed out, have not heard from server in 405107ms for session id 0x1000a6a0646000a
+24-08-03.17:25:23.617 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a0646000a for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 405107ms for session id 0x1000a6a0646000a
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+24-08-03.17:25:40.101 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Unable to reconnect to ZooKeeper service, session 0x1000a6a0646000a has expired
+24-08-03.17:25:40.101 [main-EventThread] WARN  ConnectionState        - Session expired event received
+24-08-03.17:25:40.101 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a0646000a for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x1000a6a0646000a has expired
+	at org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1406)
+	at org.apache.zookeeper.ClientCnxnSocket.readConnectResult(ClientCnxnSocket.java:154)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:84)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+24-08-03.17:28:05.281 [Curator-ConnectionStateManager-0] WARN  ConnectionStateManager - Session timeout has elapsed while SUSPENDED. Injecting a session expiration. Elapsed ms: 150536. Adjusted session timeout ms: 40000
+24-08-03.17:37:23.746 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Client session timed out, have not heard from server in 47183ms for session id 0x1000a6a0646000b
+24-08-03.17:37:23.746 [main-EventThread] WARN  ConnectionState        - Session expired event received
+24-08-03.17:37:23.747 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a0646000b for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 47183ms for session id 0x1000a6a0646000b
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+24-08-03.17:38:38.955 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Client session timed out, have not heard from server in 47832ms for session id 0x1000a6a0646000c
+24-08-03.17:38:38.955 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a0646000c for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 47832ms for session id 0x1000a6a0646000c
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+24-08-03.17:42:10.071 [main-EventThread] WARN  ConnectionState        - Session expired event received
+24-08-03.17:42:10.071 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Unable to reconnect to ZooKeeper service, session 0x1000a6a0646000c has expired
+24-08-03.17:42:10.072 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a0646000c for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x1000a6a0646000c has expired
+	at org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1406)
+	at org.apache.zookeeper.ClientCnxnSocket.readConnectResult(ClientCnxnSocket.java:154)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:84)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+24-08-03.17:42:52.005 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:42:52 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:42:52 GMT
+24-08-03.17:42:52.019 [scheduling-1    ] ERROR TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "topics" is null
+	at cn.bugstack.xfg.dev.tech.job.ZSXQJob.exec(ZSXQJob.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-08-03.17:43:38.101 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Client session timed out, have not heard from server in 46054ms for session id 0x1000a6a0646000d
+24-08-03.17:43:38.102 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a0646000d for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 46054ms for session id 0x1000a6a0646000d
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+24-08-03.17:43:38.333 [OkHttp https://open.bigmodel.cn/...] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:43:38 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:43:38 GMT
+24-08-03.17:43:38.548 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:43:38 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:43:38 GMT
+24-08-03.17:43:41.749 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Unable to reconnect to ZooKeeper service, session 0x1000a6a0646000d has expired
+24-08-03.17:43:41.750 [main-EventThread] WARN  ConnectionState        - Session expired event received
+24-08-03.17:43:41.750 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a0646000d for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x1000a6a0646000d has expired
+	at org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1406)
+	at org.apache.zookeeper.ClientCnxnSocket.readConnectResult(ClientCnxnSocket.java:154)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:84)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+24-08-03.17:44:28.165 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Client session timed out, have not heard from server in 38928ms for session id 0x1000a6a0646000e
+24-08-03.17:44:28.165 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a0646000e for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 38928ms for session id 0x1000a6a0646000e
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+24-08-03.17:44:49.295 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:44:49 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:44:49 GMT
+24-08-03.17:44:49.333 [OkHttp https://open.bigmodel.cn/...] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:44:49 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:44:49 GMT
+24-08-03.17:45:11.127 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Client session timed out, have not heard from server in 27452ms for session id 0x1000a6a0646000e
+24-08-03.17:45:11.165 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a0646000e for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 27452ms for session id 0x1000a6a0646000e
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+24-08-03.17:45:11.335 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:45:11 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:45:11 GMT
+24-08-03.17:45:53.300 [main            ] WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+24-08-03.17:46:47.898 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Client session timed out, have not heard from server in 52758ms for session id 0x1000a6a0646000f
+24-08-03.17:46:47.905 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a0646000f for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 52758ms for session id 0x1000a6a0646000f
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+24-08-03.17:46:49.821 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Unable to reconnect to ZooKeeper service, session 0x1000a6a0646000f has expired
+24-08-03.17:46:49.821 [main-EventThread] WARN  ConnectionState        - Session expired event received
+24-08-03.17:46:49.822 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a0646000f for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x1000a6a0646000f has expired
+	at org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1406)
+	at org.apache.zookeeper.ClientCnxnSocket.readConnectResult(ClientCnxnSocket.java:154)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:84)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+24-08-03.17:46:50.373 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:46:50 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:46:50 GMT
+24-08-03.17:47:49.731 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Client session timed out, have not heard from server in 45864ms for session id 0x1000a6a06460010
+24-08-03.17:47:49.731 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a06460010 for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 45864ms for session id 0x1000a6a06460010
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+24-08-03.17:48:55.899 [Curator-ConnectionStateManager-0] WARN  ConnectionStateManager - Session timeout has elapsed while SUSPENDED. Injecting a session expiration. Elapsed ms: 65148. Adjusted session timeout ms: 40000
+24-08-03.17:48:55.903 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a06460010 for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$EndOfStreamException: Unable to read additional data from server sessionid 0x1000a6a06460010, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+24-08-03.17:48:55.906 [main-EventThread] WARN  ConnectionState        - Session expired event received
+24-08-03.17:49:19.261 [main            ] WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+24-08-03.17:49:30.531 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:49:30 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:49:30 GMT
+24-08-03.17:49:40.131 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:49:40 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:49:40 GMT
+24-08-03.17:54:18.965 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Client session timed out, have not heard from server in 284172ms for session id 0x1000a6a06460012
+24-08-03.17:54:18.979 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a06460012 for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 284172ms for session id 0x1000a6a06460012
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+24-08-03.17:55:46.785 [Curator-ConnectionStateManager-0] WARN  ConnectionStateManager - Session timeout has elapsed while SUSPENDED. Injecting a session expiration. Elapsed ms: 84905. Adjusted session timeout ms: 40000
+24-08-03.17:55:49.690 [main-EventThread] WARN  ConnectionState        - Session expired event received
+24-08-03.17:56:06.282 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:56:06 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:56:06 GMT
+24-08-03.17:56:33.289 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:56:33 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:56:33 GMT
+24-08-03.17:56:33.750 [OkHttp https://open.bigmodel.cn/...] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 09:56:33 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 09:56:33 GMT
+24-08-03.17:57:04.334 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Client session timed out, have not heard from server in 32986ms for session id 0x1000a6a06460013
+24-08-03.17:57:04.336 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - Session 0x1000a6a06460013 for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 32986ms for session id 0x1000a6a06460013
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+24-08-03.18:03:09.968 [Curator-ConnectionStateManager-0] WARN  ConnectionStateManager - Session timeout has elapsed while SUSPENDED. Injecting a session expiration. Elapsed ms: 325723. Adjusted session timeout ms: 40000
+24-08-03.18:03:09.978 [main-EventThread] WARN  ConnectionState        - Session expired event received
+24-08-03.18:03:10.149 [scheduling-1    ] WARN  ResponseProcessCookies - Invalid cookie header: "Set-Cookie: abtest_env=beta; Path=/; Domain=zsxq.com; Expires=Sun, 04 Aug 2024 10:03:10 GMT". Invalid 'expires' attribute: Sun, 04 Aug 2024 10:03:10 GMT
+24-08-03.18:03:11.240 [main-SendThread(localhost:2181)] WARN  ClientCnxn             - An exception was thrown while closing send thread for session 0x1000a6a06460014.
+org.apache.zookeeper.ClientCnxn$EndOfStreamException: Unable to read additional data from server sessionid 0x1000a6a06460014, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)

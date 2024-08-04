@@ -1,0 +1,22 @@
+server:
+  port: 8091
+  application:
+    name: xfg-dev-tech-http
+
+# ChatGLM SDK Config
+chatglm:
+  sdk:
+    config:
+      # 状态；true = 开启、false 关闭
+      enabled: true
+      # 官网地址
+      api-host: https://open.bigmodel.cn/
+      # 官网申请 https://open.bigmodel.cn/usercenter/apikeys
+      api-secret-key: b74c6a11bf817fef66f9dc62a1bfa1e4.29WGOKok2O1UeKep
+      # 知识星球 Cookie 你需要获取你的 cookie 登录
+      cookie: zsxqsessionid=861171a6d203186ef9f24034ba59b9b8; zsxq_access_token=B8727972-2C9B-1077-CB6D-9C211DBC2091_174D5A84D9D3E257; sensorsdata2015jssdkcross={"distinct_id":"421848458282518","first_id":"19035a566a14ca-02da36ec1fbed2e-61095e50-1327104-19035a566a285b","props":{"$latest_traffic_source_type":"引荐流量","$latest_search_keyword":"未取到值","$latest_referrer":"https://itedus.cn/"},"identities":"eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTkwMzVhNTY2YTE0Y2EtMDJkYTM2ZWMxZmJlZDJlLTYxMDk1ZTUwLTEzMjcxMDQtMTkwMzVhNTY2YTI4NWIiLCIkaWRlbnRpdHlfbG9naW5faWQiOiI0MjE4NDg0NTgyODI1MTgifQ==","history_login_id":{"name":"$identity_login_id","value":"421848458282518"},"$device_id":"19035a566a14ca-02da36ec1fbed2e-61095e50-1327104-19035a566a285b"}; abtest_env=beta
+# 日志
+logging:
+  level:
+    root: debug
+  config: classpath:logback-spring.xml
